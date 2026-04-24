@@ -1,26 +1,26 @@
 .edit .controller.ds4 {
     background: url(https://Alphobla.github.io/gamepad.github.io/skins/base-custom.png);
-    filter: saturate(0) brightness(2.5);
+    filter: invert(1) grayscale(1) brightness(1.5);
 }
 
 
 .controller.edit {
     background: url(https://Alphobla.github.io/gamepad.github.io/skins/base-custom.png);
-    filter: saturate(0) brightness(2.5);
+    filter: invert(1) grayscale(1) brightness(1.5);
 }
 
 
 .edit .face {
     position: absolute;
     background: url(https://Alphobla.github.io/gamepad.github.io/skins/dpad-custom.png);
-    filter: hue-rotate(-70deg) saturate(1.3) brightness(1.1);
+    filter: invert(1) sepia(1) hue-rotate(185deg) saturate(3) brightness(0.9);
 }
 
 
 .edit .stick {
     position: absolute;
     background: url(https://Alphobla.github.io/gamepad.github.io/skins/sticks-custom.png);
-    filter: hue-rotate(-70deg) saturate(1.3) brightness(1.1);
+    filter: invert(1) sepia(1) hue-rotate(185deg) saturate(3) brightness(0.9);
 }
 
 
