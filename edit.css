@@ -1,32 +1,26 @@
 .edit .controller.ds4 {
     background: url(https://schoettner.github.io/skins/base-custom.png);
+    filter: saturate(0) brightness(2.5);
 }
 
 
 .controller.edit {
     background: url(https://schoettner.github.io/skins/base-custom.png);
-}
-
-
-.edit .face .ds4 {
-    background: url(https://schoettner.github.io/skins/dpad-custom.png);
+    filter: saturate(0) brightness(2.5);
 }
 
 
 .edit .face {
     position: absolute;
     background: url(https://schoettner.github.io/skins/dpad-custom.png);
-}
-
-
-.edit .stick .ds4 {
-    background: url(https://schoettner.github.io/skins/sticks-custom.png);
+    filter: hue-rotate(-70deg) saturate(1.3) brightness(1.1);
 }
 
 
 .edit .stick {
     position: absolute;
     background: url(https://schoettner.github.io/skins/sticks-custom.png);
+    filter: hue-rotate(-70deg) saturate(1.3) brightness(1.1);
 }
 
 
